@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500i|IBM+Plex+Sans+Condensed:500&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  height: 14vh;
+  background-color: white
+ ;
+  /* box-sizing: border-box; */
+  /* position: fixed; */
+  border-bottom: solid 5px #D4145A;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  flex-direction: row;
+  /* font-size: 120%; */
+  color: #D4145A;
+    
+}
+
+.nav-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 6vh;
+  padding-right: 2vw;
+
+}
+#nav-links {
+  color: #D4145A
+;
+  font-family: 'IBM Plex Mono', monospace;
+
+  text-decoration: none;
+  /* padding-right: 2vw; */
+  padding-left: 2vw;
+  font-size: 160%;
+
+}
+#nav-links:hover {
+  /* text-decoration: underline; */
+  color:#D4145A;
+}
+
+#logo-mercedes-grossmann {
+  height: 10vh;
+  padding-left: 2vw;
+}
+
+.section1-intro {
+  /* margin-top: 15vh; */
+  height: 80vh;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/05/2c/77/052c779c22d9d7972e9d1e2b42dffd83.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  /* color: black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'IBM Plex Sans Condensed', sans-serif; 
+  justify-content: center;
+}
+.section1-intro h2 {
+  font-size: 300%;
+  margin: 0;
+  color: #D4145A;
+  font-family: 'IBM Plex Mono', monospace;
+;
+  margin-top: 10vh;
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30vw;
+  height: 13vh;
+}
+.buttons-container span {
+  padding: 0 2.5vw 0 2.5vw;
+  border-radius: 50px;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+}
+#services-button {
+  background-color: #D4145A ;
+  color: white;
+}
+#services-button:hover {
+  opacity: 0.9;
+  box-shadow: white
+;
+}
+#portafolio-button {
+  background-color: white;
+  border: 1px solid #D4145A; 
+}
+#portafolio-button:hover  {
+  background-color: #D4145A;
+}
+#link-portafolio {
+  color: #D4145A;
+}
+#portafolio-button:hover #link-portafolio {
+  color: white;
+}
+.section1-intro div {
+  width: 100%;
+}
+.section1-intro h1 {
+  color: white;
+  font-size: 200%;
+}
+
+.services-page {
+  display: flex;
+  margin-top: 5vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'IBM Plex Mono', monospace;
+}
+#title {
+  text-align: center;
+  font-size: 8vh;
+  font-family: 'IBM Plex Sans Condensed', sans-serif; 
+
+}
+.services-page section {
+  flex-direction: row;
+}
+.services-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-content: space-around; */
+  width: 30vw;
+  /* border: 2px solid purple; */
+  width: 80vw;
+  /* flex-wrap: wrap; */
+}
+.services-card span {
+  height: 15vh;
+  flex-direction: row;  
+}
+.services-container {
+  display: flex;
+  flex-direction: row;
+}
+.services-each {
+  padding-top: 2vh;
+  margin-bottom: 5vh;
+  display: flex; 
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 300%;
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'IBM Plex Mono', monospace;
+  border: 2px solid;
+  color: #D4145A;
+
+}
+.services-each p {
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+.right {
+  justify-content: flex-end;
+  color: purple;
+  /* padding-right: 2vw; */
+
+}
+.services-each:hover {
+  color: black;
+}
+.services-each h2 {
+  width: 15vw;
+}
+#logo-services {
+  height: 8vh;
+}
+.contact-info {
+height: 70vh;
+/* border: 1px solid white; */
+background-color: #D4145A;
+display: flex;
+flex-direction: row;
+}
+.contact-mission {
+  width: 50%;
+  border-right: 1px white solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.contact-mission div {
+  width: 70%;
+  text-align: justify;
+  color: white;
+
+}
+
