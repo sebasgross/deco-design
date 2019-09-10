@@ -46,34 +46,35 @@ class Index extends Component{
                 <section>
                 <h1 id="title" >Services</h1>
                 </section>
-                <section className="services-container">
+                <div className="services-container">
                 <div className="services-card">
-                <span className="services-each" data-aos="fade-right" data-aos-duration="2000" >
-                    <p>Consultation</p>
-                    {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177853/Deco-Design/icons8-intelligence-48.png" alt="Logo Service" /> */}
-                </span>
-                <span className="services-each right" data-aos="fade-left" data-aos-duration="2000">
-                    <p>Design</p>
-                    {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177958/Deco-Design/icons8-buffet-48.png" alt="Logo Service" /> */}
-                </span>
-                <span className="services-each" data-aos="fade-right" data-aos-duration="2000">
-                    <p>Renovation</p>
-                    {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566178040/Deco-Design/icons8-colosseum-48_1.png" alt="Logo Service" /> */}
-                </span>
-                <span className="services-each right" data-aos="fade-left" data-aos-duration="2000">
-                    <p>Staging</p>
-                    {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177935/Deco-Design/icons8-curtains-48.png" alt="Logo Service" /> */}
-                </span>
-                <span className="services-each" data-aos="fade-right" data-aos-duration="2000">
-                    <p>Deco-Kids</p>
-                    {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177874/Deco-Design/icons8-sandbox-48.png" alt="Logo Service" /> */}
-                </span>
-                <span className="services-each right" data-aos="fade-left" data-aos-duration="2000">
-                    <p>Commercial</p>
-                    {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566178074/Deco-Design/icons8-new-company-48.png" alt="Logo Service" /> */}
-                </span>
+                    <div className="services-each" data-aos="fade-right" data-aos-duration="2000" >
+                        <p>Consultation</p>
+                        {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177853/Deco-Design/icons8-intelligence-48.png" alt="Logo Service" /> */}
+                    </div>
+                    <div className="services-each" data-aos="fade-left" data-aos-duration="2000">
+                        <p>Design</p>
+                        {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177958/Deco-Design/icons8-buffet-48.png" alt="Logo Service" /> */}
+                    </div>
+                
+                    <div className="services-each" data-aos="fade-right" data-aos-duration="2000">
+                        <p>Renovation</p>
+                        {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566178040/Deco-Design/icons8-colosseum-48_1.png" alt="Logo Service" /> */}
+                    </div>
+                    <div className="services-each" data-aos="fade-left" data-aos-duration="2000">
+                        <p>Staging</p>
+                        {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177935/Deco-Design/icons8-curtains-48.png" alt="Logo Service" /> */}
+                    </div>
+                    <div className="services-each" data-aos="fade-right" data-aos-duration="2000">
+                        <p>Deco-Kids</p>
+                        {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566177874/Deco-Design/icons8-sandbox-48.png" alt="Logo Service" /> */}
+                    </div>
+                    <div className="services-each" data-aos="fade-left" data-aos-duration="2000">
+                        <p>Commercial</p>
+                        {/* <img id="logo-services" src="https://res.cloudinary.com/dpt8pbi8n/image/upload/v1566178074/Deco-Design/icons8-new-company-48.png" alt="Logo Service" /> */}
+                    </div>
                 </div>
-                </section>
+                </div>
                 </div>
                 <div className="contact-info">
                     <div className="contact-mission">

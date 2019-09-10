@@ -37,25 +37,25 @@ code {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   height: 6vh;
-  padding-right: 2vw;
+  width: 60vw;
+  /* padding-right: 2vw; */
 
 }
 #nav-links {
-  color: #D4145A
-;
+  color: #D4145A;
   font-family: 'IBM Plex Mono', monospace;
-
   text-decoration: none;
-  /* padding-right: 2vw; */
-  padding-left: 2vw;
+  /* padding-left: 2vw; */
   font-size: 160%;
-
+  /* width: 100%; */
 }
+
 #nav-links:hover {
   /* text-decoration: underline; */
   color:#D4145A;
+  border-bottom: 3px solid purple;
 }
 
 #logo-mercedes-grossmann {
@@ -67,9 +67,9 @@ code {
   /* margin-top: 15vh; */
   height: 80vh;
   width: 100%;
-  background-image: url("https://i.pinimg.com/originals/05/2c/77/052c779c22d9d7972e9d1e2b42dffd83.jpg");
+  background-image: url("https://images.unsplash.com/photo-1519642918688-7e43b19245d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80");
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: 0%; 
   background-size: cover;
   /* color: black; */
   display: flex;
@@ -133,50 +133,53 @@ code {
 
 .services-page {
   display: flex;
-  margin-top: 5vh;
+  height: 92vh;
+  width: 100vw;
+  /* margin-top: 2vh; */
   align-items: center;
   justify-content: center;
   flex-direction: column;
   font-family: 'IBM Plex Mono', monospace;
+  background-image: url("https://res.cloudinary.com/dpt8pbi8n/image/upload/v1568079350/Deco-Design/roxanne-desgagnes-3DuDyX5Fpuk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 0%; 
+  background-size: cover;
 }
 #title {
   text-align: center;
   font-size: 8vh;
   font-family: 'IBM Plex Sans Condensed', sans-serif; 
+}
 
-}
-.services-page section {
-  flex-direction: row;
-}
 .services-card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  /* align-content: space-around; */
-  width: 30vw;
-  /* border: 2px solid purple; */
-  width: 80vw;
-  /* flex-wrap: wrap; */
+
+  height: 95%;
+
+  /* width: 100vw; */
 }
-.services-card span {
-  height: 15vh;
-  flex-direction: row;  
-}
+
 .services-container {
-  display: flex;
-  flex-direction: row;
+height: 85%;
+margin: 0;
 }
+
 .services-each {
-  padding-top: 2vh;
+  /* padding-top: 2vh; */
+  /* margin-right: 1vw; */
+  height: 9%;
+  width: 70vw;
   margin-bottom: 5vh;
+  background-color: white;
   display: flex; 
-  width: 100%;
+  /* width: 100%; */
   justify-content: flex-start;
   align-items: center;
-  font-size: 300%;
   /* font-family: 'Work Sans', sans-serif; */
   font-family: 'IBM Plex Mono', monospace;
   border: 2px solid;
+  /* border-radius: 50%; */
   color: #D4145A;
 
 }
@@ -184,12 +187,7 @@ code {
   padding-right: 2vw;
   padding-left: 2vw;
 }
-.right {
-  justify-content: flex-end;
-  color: purple;
-  /* padding-right: 2vw; */
 
-}
 .services-each:hover {
   color: black;
 }
